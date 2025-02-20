@@ -62,7 +62,7 @@ spec:
           kind: Alias
           spec:
             forProvider: {}
-        name: alais
+        name: alias
         patches:
         - patchSetName: common-fields
           type: PatchSet
