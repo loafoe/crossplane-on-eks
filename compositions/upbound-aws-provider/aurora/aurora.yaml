@@ -226,8 +226,8 @@ spec:
               vpcSecurityGroupIDSelector:
                 matchControllerRef: true
               vpcSecurityGroupIDs: []
-              writeConnectionSecretToRef:
-                namespace: crossplane-system
+            writeConnectionSecretToRef:
+              namespace: crossplane-system
         connectionDetails:
         - fromFieldPath: status.atProvider.masterUsername
           name: clusterUsername
@@ -471,8 +471,8 @@ spec:
               vpcSecurityGroupIDSelector:
                 matchControllerRef: true
               vpcSecurityGroupIds: []
-              writeConnectionSecretToRef:
-                namespace: crossplane-system
+            writeConnectionSecretToRef:
+              namespace: crossplane-system
         connectionDetails:
         - fromFieldPath: status.atProvider.endpoint
           name: proxyEndpoint

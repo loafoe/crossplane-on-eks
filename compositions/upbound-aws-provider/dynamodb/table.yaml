@@ -36,9 +36,9 @@ spec:
           apiVersion: dynamodb.aws.upbound.io/v1beta1
           kind: Table
           spec:
-            forProvider:
-              writeConnectionSecretToRef:
-                namespace: crossplane-system
+            forProvider: {}
+            writeConnectionSecretToRef:
+              namespace: crossplane-system
         connectionDetails:
         - fromFieldPath: status.atProvider.id
           name: tableName
