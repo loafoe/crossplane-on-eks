@@ -57,8 +57,6 @@ spec:
             forProvider:
               forceDestroy: true
               region: us-west-2
-            writeConnectionSecretToRef:
-              namespace: crossplane-system
         connectionDetails:
         - fromFieldPath: status.atProvider.id
           name: bucketName
